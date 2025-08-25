@@ -39,10 +39,10 @@ Layanan pemendek URL (URL shortener) dengan RESTful API yang efisien, dibangun m
 
 1.  **Clone & Setup Database**
     ```bash
-    git clone https://github.com/your-username/url-shortener.git
-    cd url-shortener
+    git clone https://github.com/your-username/go_url_shortener.git
+    cd go_url_shortener
     ```
-    - Di MySQL, jalankan: `CREATE DATABASE url_shortener_db;`
+    - Di MySQL, jalankan: `CREATE DATABASE go_url_shortener_db;`
 
 2.  **Konfigurasi Koneksi**
     - Edit string `dsn` di dalam file `config/database.go` agar sesuai dengan konfigurasi MySQL Anda.
